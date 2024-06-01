@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 15px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+/* <========================= HEADER =========================> */
+
+.header{
+    background-color: rgb(53, 53, 239);
+    height: 150px;
+}
+
+.titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    color:azure;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px 40px;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: 40px;
+}
+
+a.home{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+a.prob{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+a.serv{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+a.integrantes{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+a.contato{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* <========================= PROBLEMA =========================> */
+
+h3{
+    font-size: 26px;
+    text-align: center;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    text-decoration: underline;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+img{
+    width: 60vw;
+    border-radius: 2vw;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    padding: 3vw;
+}
+
+p{
+    width: 90vw;
+    text-align: center;
+}
+
+h4{
+    font-size: 24px;
+    text-align: justify;
+}
+
+.danos{
+    list-style-type: circle;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* ============================ footer ============================ */
+
+footer{
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(53, 53, 239);
+    color: white;
+    padding: 10px;
+    margin-top: 2vw;
+}
