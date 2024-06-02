@@ -1,3 +1,5 @@
+/* <========================= navegação =========================> */
+
 let titulo = document.querySelector('#titulo')
 
 titulo.addEventListener('mouseenter', entrarTitulo)

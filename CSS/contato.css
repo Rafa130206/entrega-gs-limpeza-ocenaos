@@ -107,9 +107,12 @@ form{
     margin: 60px;
     font-size: 20px;
     text-align: center;
-    width: 300px;
     display: inline-block;
-    width: 440px;
+    width: 30vw;
+}
+
+div{
+    margin: 30px;
 }
 
 label{ 

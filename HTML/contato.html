@@ -22,26 +22,39 @@
     </header>
     <h1 class="contatoh1">ENTRE EM CONTATO</h1>
     <div class="form">
-        <form action="Contatar" method="get">
+        <form action="Contatar" method="get" id="idForm">
             <fieldset>
-                <legend>Dados Pessoais</legend><br>
-                <label for="idnome">Nome: </label>
-                <input type="text" name="nome" id="idnome"><br>
-                <br>
-                <label for="idemail">Email</label>
-                <input type="text" name="email" id="idemail"><br>
-                <br>
-                <label for="idcpf">CPF:</label>
-                <input type="text" name="cpf" id="idcpf"><br>
-                <br>
-                <label for="idcep">CEP: </label>
-                <input type="text" name="cep" id="idcep"><br>
-                <br>
-                <label for="idtel">Telefone: </label>
-                <input type="text" name="tel" id="idtel"><br>
-                <br>
-                <label for="idcontato" class="msg">Deixe sua mensagem:</label><br>
-                <textarea name="contato" id="idcontato" cols="30" rows="10"></textarea>
+                <div class="nome">
+                    <legend>Dados Pessoais</legend><br>
+                    <label for="idnome">Nome: </label>
+                    <input type="text" name="nome" class="required" id="idnome"><br>
+                    <br>
+                </div>
+                <div class="email">
+                    <label for="idemail">Email</label>
+                    <input type="text" name="email" class="required" id="idemail"><br>
+                    <br>
+                </div>
+                <div class="cpf">
+                    <label for="idcpf">CPF:</label>
+                    <input type="text" name="cpf" class="required" id="idcpf"><br>
+                    <br>
+                </div>
+                <div class="CEP">
+                    <label for="idcep">CEP: </label>
+                    <input type="text" name="cep" class="required" id="idcep"><br>
+                    <br>
+                </div>
+                <div>
+                    <label for="idtel">Telefone: </label>
+                    <input type="text" name="tel" class="required" id="idtel"><br>
+                    <br>
+                </div>
+                <div>
+                    <label for="idcontato" class="msg">Deixe sua mensagem:</label><br>
+                    <textarea name="contato" class="required" id="idcontato" cols="30" rows="10"></textarea>
+                    <br>
+                </div>
             </fieldset>
             <br>
             <input type="submit" value="Enviar">
