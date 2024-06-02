@@ -24,37 +24,39 @@
     <div class="form">
         <form action="Contatar" method="get" id="idForm">
             <fieldset>
+                <legend>Dados Pessoais</legend><br>
+                <div class="inputs">
                 <div class="nome">
-                    <legend>Dados Pessoais</legend><br>
                     <label for="idnome">Nome: </label>
-                    <input type="text" name="nome" class="required" id="idnome"><br>
+                    <input type="text" name="nome" id="idnome"><br>
                     <br>
                 </div>
                 <div class="email">
-                    <label for="idemail">Email</label>
-                    <input type="text" name="email" class="required" id="idemail"><br>
+                    <label for="idemail">Email:</label>
+                    <input type="text" name="email" id="idemail"><br>
                     <br>
                 </div>
                 <div class="cpf">
                     <label for="idcpf">CPF:</label>
-                    <input type="text" name="cpf" class="required" id="idcpf"><br>
+                    <input type="text" name="cpf" id="idcpf"><br>
                     <br>
                 </div>
-                <div class="CEP">
+                <div class="cep">
                     <label for="idcep">CEP: </label>
-                    <input type="text" name="cep" class="required" id="idcep"><br>
+                    <input type="text" name="cep" id="idcep"><br>
                     <br>
                 </div>
-                <div>
+                <div class="tel">
                     <label for="idtel">Telefone: </label>
-                    <input type="text" name="tel" class="required" id="idtel"><br>
+                    <input type="text" name="tel" id="idtel"><br>
                     <br>
                 </div>
-                <div>
+                <div class="msg">
                     <label for="idcontato" class="msg">Deixe sua mensagem:</label><br>
-                    <textarea name="contato" class="required" id="idcontato" cols="30" rows="10"></textarea>
+                    <textarea name="contato" id="idcontato" cols="30" rows="10"></textarea>
                     <br>
                 </div>
+            </div>
             </fieldset>
             <br>
             <input type="submit" value="Enviar">

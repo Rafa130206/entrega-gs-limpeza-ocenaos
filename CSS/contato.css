@@ -111,18 +111,22 @@ form{
     width: 30vw;
 }
 
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 div{
     margin: 30px;
 }
 
-label{ 
-    display: inline-block; 
-    width: 100px; 
-    text-align: left;
+label{
+    text-align: center;
 }
 
 input{
-    font-size: 24px;
+    font-size: 20px;
 }
 
 /* ============================ FOOTER ============================ */
@@ -134,4 +138,300 @@ footer{
     color: white;
     padding: 10px;
     margin-top: 2vw;
+}
+
+/* ============================ até 1428px ============================ */
+
+@media screen and (max-width: 1428px){
+    .contatoh1{
+        text-align: center;
+        margin: 20px;
+        font-size: 50px;
+    }
+    
+    legend{
+        font-size: 30px;
+    }
+
+    form{
+        margin: 52px;
+        font-size: 18px;
+        text-align: center;
+        display: inline-block;
+        width: 30vw;
+    }
+
+    input{
+        font-size: 18px;
+    }
+}
+
+/* ============================ até 1315px ============================ */
+
+@media screen and (max-width: 1315px){
+    .contatoh1{
+        text-align: center;
+        margin: 20px;
+        font-size: 42px;
+    }
+    
+    legend{
+        font-size: 30px;
+    }
+
+    form{
+        margin: 10px;
+        font-size: 18px;
+        text-align: center;
+        display: inline-block;
+        width: 30vw;
+    }
+
+    .inputs{
+        margin: 0px;
+    }
+
+    label{
+        display: flex;
+        flex-direction: column;
+    }
+
+    input{
+        font-size: 18px;
+    }
+}
+
+/* ============================ até 913px ============================ */
+
+@media screen and (max-width: 913px){
+
+    .contatoh1{
+        font-size: 36px;
+    }
+
+    form{
+        margin: 10px;
+        font-size: 18px;
+        text-align: center;
+        display: inline-block;
+        width: 30vw;
+    }
+
+    legend{
+        font-size: 26px;
+    }
+
+    .nome{
+        margin: 0px;
+    }
+
+    .email{
+        margin: 0px;
+    }
+
+    .cpf{
+        margin: 0px;
+    }
+
+    .cep{
+        margin: 0px;
+    }
+
+    .tel{
+        margin: 0px;
+    }
+
+    .msg{
+        margin: 0px;
+    }
+
+    label{
+        font-size: 14px;
+    }
+
+    input{
+        font-size: 14px;
+    }
+
+    /* ============================ FOOTER ============================ */
+
+footer{
+    font-size: 14px;
+}
+}
+
+/* ============================ até 733px ============================ */
+
+@media screen and (max-width: 733px){
+
+    /* <========================= HEADER =========================> */
+
+.header{
+    background-color: rgb(53, 53, 239);
+    height: 100px;
+}
+
+.titulo{
+    font-size: 24px;
+}
+
+ul{
+    gap: 5px 20px;
+    margin-top: 20px;
+}
+
+a.home{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a.prob{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a.serv{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a.integrantes{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a.contato{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h2{
+    padding-top: 10px;
+}
+
+/* <========================= CONTATO =========================> */
+
+.contatoh1{
+    font-size: 28px;
+}
+
+    label{
+        font-size: 12px;
+    }
+
+    input{
+        width: 25vw;
+        font-size: 12px;
+    }
+
+    textarea{
+        width: 25vw;
+    }
+    
+    /* ============================ FOOTER ============================ */
+
+footer{
+    margin-top: 10vw;
+    font-size: 14px;
+}
+}
+
+/* ============================ até 478px ============================ */
+
+@media screen and (max-width: 478px){
+
+    /* <========================= HEADER =========================> */
+
+.header{
+    height: 100px;
+}
+
+.titulo{
+    font-size: 22px;
+}
+
+ul{
+    gap: 5px 20px;
+    margin-top: 20px;
+}
+
+a.home{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a.prob{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a.serv{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a.integrantes{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a.contato{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+h2{
+    padding-top: 10px;
+}
+
+/* <========================= CONTATO =========================> */
+
+.contatoh1{
+    font-size: 28px;
+}
+
+form{
+    width: 60vw;
+}
+
+    label{
+        font-size: 18px;
+        display: inline;
+    }
+
+    input{
+        width: 25vw;
+        font-size: 18px;
+    }
+
+    textarea{
+        width: 40vw;
+    }
+    
+    /* ============================ FOOTER ============================ */
+
+footer{
+    margin-top: 45vw;
+    font-size: 14px;
+}
 }
