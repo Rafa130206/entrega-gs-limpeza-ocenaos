@@ -116,15 +116,10 @@ section{
     padding: 3vw;
 }
 
-p{
+.estudo{
     width: 90vw;
     text-align: center;
     font-size: 18px;
-}
-
-h4{
-    font-size: 24px;
-    text-align: justify;
 }
 
 .danos{
@@ -148,4 +143,286 @@ footer{
     color: white;
     padding: 10px;
     margin-top: 2vw;
+}
+
+/* ============================ até 1024px ============================ */
+@media screen and (max-width: 1024px){
+
+    h3{
+        font-size: 24px;
+    }
+
+    .danos{
+        font-size: 17px;
+    }
+
+    footer{
+        font-size: 14px;
+    }
+
+}
+
+/* ============================ até 628px ============================ */
+@media screen and (max-width: 628px){
+
+    /* <========================= HEADER =========================> */
+
+    .header{
+        background-color: rgb(53, 53, 239);
+        height: 120px;
+    }
+
+    .titulo{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: underline;
+        color:azure;
+        font-size: 26px;
+        font-weight: weight;
+        font-style: normal;
+    }
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 10px 40px;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        margin-top: 30px;
+    }
+
+    a.home{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    a.prob{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    a.serv{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    a.integrantes{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    a.contato{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    /* <========================= PROBLEMA =========================> */
+
+    h3{
+        font-size: 20px;
+    }
+
+    .estudo{
+        font-size: 16px;
+    }
+
+    .danos{
+        font-size: 16px;
+    }
+
+    /* <========================= footer =========================> */
+
+    footer{
+        font-size: 14px;
+    }
+
+}
+
+/* ============================ até 520px ============================ */
+@media screen and (max-width: 520px){
+
+    /* <========================= HEADER =========================> */
+
+    .header{
+        background-color: rgb(53, 53, 239);
+        height: 100px;
+    }
+
+    .titulo{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: underline;
+        color:azure;
+        font-size: 20px;
+        font-weight: weight;
+        font-style: normal;
+    }
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 5px 20px;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        margin-top: 20px;
+    }
+
+    a.home{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    a.prob{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    a.serv{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    a.integrantes{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    a.contato{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    /* <========================= PROBLEMA =========================> */
+
+    h3{
+        font-size: 18px;
+    }
+
+    .estudo{
+        font-size: 14px;
+    }
+
+    .danos{
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+    /* <========================= footer =========================> */
+
+    footer{
+        font-size: 12px;
+    }
+
+}
+
+/* ============================ até 386px ============================ */
+@media screen and (max-width: 386px){
+
+    /* <========================= HEADER =========================> */
+
+    h2{
+        padding: 0px;
+    }
+
+    .header{
+        background-color: rgb(53, 53, 239);
+        height: 80px;
+    }
+
+    .titulo{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: underline;
+        color:azure;
+        font-size: 16px;
+        font-weight: weight;
+        font-style: normal;
+    }
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 2px 10px;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        margin-top: 10px;
+    }
+
+    a.home{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    a.prob{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    a.serv{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    a.integrantes{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    a.contato{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    /* <========================= PROBLEMA =========================> */
+
+    h3{
+        font-size: 16px;
+    }
+
+    .estudo{
+        font-size: 12px;
+    }
+
+    .danos{
+        font-size: 10px;
+        margin-top: 0px;
+        max-width: 90vw;
+    }
+
+    /* <========================= footer =========================> */
+
+    footer{
+        font-size: 10px;
+    }
+
 }
